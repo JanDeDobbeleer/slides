@@ -1,0 +1,16 @@
+name: Create SBOM
+on:
+  release:
+    types: [published]
+
+jobs:
+  scan:
+    name: Create and upload SBOM
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        name: Create SBOM
+      - uses: anchore/sbom-action@v0
+        with:
+          path: ./github-actions/
+          artifact-name: sbom.spdx
