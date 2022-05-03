@@ -6,15 +6,15 @@
     "export": "slidev export"
   },
   "dependencies": {
-    "@slidev/cli": "^0.20.5",
+    "@slidev/cli": "^0.29.2",
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*",
-    "slidev-theme-geist": "^0.6.0",
-    "slidev-theme-purplin": "^1.0.0",
+    "slidev-theme-geist": "^0.8.1",
+    "slidev-theme-purplin": "^1.1.0",
     "slidev-theme-unicorn": "^1.0.21"
   },
   "name": "github-actions",
   "devDependencies": {
-    "playwright-chromium": "^1.12.3"
+    "playwright-chromium": "^1.20.2"
   }
 }
